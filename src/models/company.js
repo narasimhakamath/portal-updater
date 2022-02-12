@@ -21,6 +21,9 @@ const companySchema = new mongoose.Schema({
 		required: true,
 		trim: true
 	},
+	companyLogo: {
+		type: Buffer
+	},
 	databaseName: {
 		type: String,
 		required: true,
