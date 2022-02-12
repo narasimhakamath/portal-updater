@@ -20,6 +20,10 @@ const companyupdateSchema = new mongoose.Schema({
 		type: String,
 		required: true,
 		trim: true
+	},
+	isSuccess: {
+		type: Boolean,
+		default: false
 	}
 }, {
 	timestamps: true
