@@ -23,5 +23,5 @@ const companyuserSchema = new mongoose.Schema({
 	timestamps: true
 });
 
-const CompanyUserSchema = mongoose.model('CompanyUserSchema', companyuserSchema);
-module.exports = CompanyUserSchema;
+const CompanyUser = mongoose.model('CompanyUser', companyuserSchema);
+module.exports = CompanyUser;
