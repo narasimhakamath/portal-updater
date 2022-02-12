@@ -1,0 +1,33 @@
+{
+  "name": "portal-updater",
+  "version": "1.0.0",
+  "description": "Backend application to manage Bizom portals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narasimhakamath/portal-updater.git"
+  },
+  "author": "Narasimha Kamath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narasimhakamath/portal-updater/issues"
+  },
+  "homepage": "https://github.com/narasimhakamath/portal-updater#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.1",
+    "multer": "^1.4.4",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
